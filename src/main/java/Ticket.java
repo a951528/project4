@@ -6,8 +6,21 @@ public class Ticket {
     public static final int KAOHSIUNG_CITY = 300;
 
     int price;
-    int start;
-    int end;
+    //int start;
+    //int end;
+    Station start;
+    Station end;
+
+    public Ticket(Station start, Station end) {
+        this.start = start;
+        this.end = end;
+    }
+
+    public void print() {
+//        taipeiCity = 100;
+    }
+
+
 
 
 
